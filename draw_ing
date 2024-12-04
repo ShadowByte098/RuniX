@@ -648,7 +648,7 @@ function DrawingLib.createFrame()
 end
 
 task.spawn(function()
-	print("Welcome To RuniX!\ndiscord.gg/AqZFu7mQkm")
+	print("Welcome To RuniX!")
 	local _game = game:GetService("CoreGui").Parent
 local HttpService = _game:FindService("HttpService")
 
