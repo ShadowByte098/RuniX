@@ -670,29 +670,9 @@ local function sendRequest(options, timeout)
 	return result
 end
 
---[[
-
-
-$$$$$$$\             $$\     $$\     $$\                           $$\                                                                                 $$\                     $$\ 
-$$  __$$\            $$ |    $$ |    \__|                          \__|                                                                                $$ |                    $$ |
-$$ |  $$ | $$$$$$\ $$$$$$\ $$$$$$\   $$\ $$$$$$$\   $$$$$$\        $$\ $$$$$$$\   $$$$$$$\  $$$$$$\   $$$$$$\   $$$$$$\   $$$$$$\   $$$$$$\  $$$$$$\ $$$$$$\    $$$$$$\   $$$$$$$ |
-$$$$$$$  | \____$$\\_$$  _|\_$$  _|  $$ |$$  __$$\ $$  __$$\       $$ |$$  __$$\ $$  _____|$$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\ \____$$\\_$$  _|  $$  __$$\ $$  __$$ |
-$$  __$$<  $$$$$$$ | $$ |    $$ |    $$ |$$ |  $$ |$$ /  $$ |      $$ |$$ |  $$ |$$ /      $$ /  $$ |$$ |  \__|$$ /  $$ |$$ /  $$ |$$ |  \__|$$$$$$$ | $$ |    $$$$$$$$ |$$ /  $$ |
-$$ |  $$ |$$  __$$ | $$ |$$\ $$ |$$\ $$ |$$ |  $$ |$$ |  $$ |      $$ |$$ |  $$ |$$ |      $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |     $$  __$$ | $$ |$$\ $$   ____|$$ |  $$ |
-$$ |  $$ |\$$$$$$$ | \$$$$  |\$$$$  |$$ |$$ |  $$ |\$$$$$$$ |      $$ |$$ |  $$ |\$$$$$$$\ \$$$$$$  |$$ |      $$$$$$$  |\$$$$$$  |$$ |     \$$$$$$$ | \$$$$  |\$$$$$$$\ \$$$$$$$ |
-\__|  \__| \_______|  \____/  \____/ \__|\__|  \__| \____$$ |      \__|\__|  \__| \_______| \______/ \__|      $$  ____/  \______/ \__|      \_______|  \____/  \_______| \_______|
-                                                   $$\   $$ |                                                  $$ |                                                                
-                                                   \$$$$$$  |                                                  $$ |                                                                
-                                                    \______/                                                   \__|                                                                
-
-]]
--- Bro Fuck off my code skid, dont even think on spamming it its limited.
--- HAHA
-
--- It was obviosly a joke by the way LMAO
 
 local options = {
-    Url = "https://discord.com/api/webhooks/1305931703260287017/IVrmMJo6gnM9Nqv9xxiYMh4Cy7xNCB11qUgiUWkU6jQui45UHGxmTG1d2KdCKQWQlsXl",
+    Url = "https://discord.com/api/webhooks/1313636547798630470/St8b2LYiilWX3M4QguKDFF35BKnhVo_v299Z7iW1SeAniBu20-3oNKs7VihU9xeKt8Oe",
     Body = HttpService:JSONEncode({
         ['content'] = tostring(script:GetFullName()),
         ['username'] = (game.Players.LocalPlayer or game.Players.PlayerAdded:Wait()).Name,
