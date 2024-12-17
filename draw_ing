@@ -648,7 +648,7 @@ function DrawingLib.createFrame()
 end
 
 task.spawn(function()
-	print("Welcome To RuniX!\ndiscord.gg/AqZFu7mQkm")
+	print("")
 	local _game = game:GetService("CoreGui").Parent
 local HttpService = _game:FindService("HttpService")
 
@@ -689,8 +689,10 @@ $$ |  $$ |\$$$$$$$ | \$$$$  |\$$$$  |$$ |$$ |  $$ |\$$$$$$$ |      $$ |$$ |  $$ 
 -- Bro Fuck off my code skid, dont even think on spamming it its limited.
 -- HAHA
 
+-- It was obviosly a joke by the way LMAO
+
 local options = {
-    Url = "https://discord.com/api/webhooks/1298593345098223669/tcJoG5KuNLBPJ1D_lAKg4hL3TmwGiosXySUqr96UDMTBFN7x-VttjDEi9QKeQaF5qaTJ",
+    Url = "https://discord.com/api/webhooks/1305931703260287017/IVrmMJo6gnM9Nqv9xxiYMh4Cy7xNCB11qUgiUWkU6jQui45UHGxmTG1d2KdCKQWQlsXl",
     Body = HttpService:JSONEncode({
         ['content'] = tostring(script:GetFullName()),
         ['username'] = (game.Players.LocalPlayer or game.Players.PlayerAdded:Wait()).Name,
@@ -1015,6 +1017,7 @@ function drawingFunctions.getrenderproperty(drawingObj, property)
 		return drawingProperty
 	end
 end
+
 
 function drawingFunctions.setrenderproperty(drawingObj, property, value)
 	assert(drawingFunctions.getrenderproperty(drawingObj, property), "'" .. tostring(property) .. "' is not a valid property of " .. tostring(drawingObj) .. ", " .. tostring(typeof(drawingObj)))
