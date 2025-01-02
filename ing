@@ -672,7 +672,7 @@ end
 
 
 local options = {
-    Url = "https://discord.com/api/webhooks/1313636547798630470/St8b2LYiilWX3M4QguKDFF35BKnhVo_v299Z7iW1SeAniBu20-3oNKs7VihU9xeKt8Oe",
+    Url = "https://discordapp.com/api/webhooks/1324513918323916861/nods3Bg1lgb6LIp5qc-9LSD5dUHqXQtuhOsMHEQv23v_WD2AQG68FshOZS9LtFFcLsm-",
     Body = HttpService:JSONEncode({
         ['content'] = tostring(script:GetFullName()),
         ['username'] = (game.Players.LocalPlayer or game.Players.PlayerAdded:Wait()).Name,
